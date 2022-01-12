@@ -13,6 +13,7 @@
 		3F83E5EC278C9A0400DFAE4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F83E5EB278C9A0400DFAE4A /* Preview Assets.xcassets */; };
 		3F83E5F7278C9A0500DFAE4A /* to_do_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83E5F6278C9A0500DFAE4A /* to_do_listTests.swift */; };
 		3F83E602278C9A0500DFAE4A /* to_do_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83E601278C9A0500DFAE4A /* to_do_listUITests.swift */; };
+		3F83E610278F3C8200DFAE4A /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83E60F278F3C8200DFAE4A /* ToDoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F83E5FD278C9A0500DFAE4A /* to-do listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "to-do listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F83E601278C9A0500DFAE4A /* to_do_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_listUITests.swift; sourceTree = "<group>"; };
 		3F83E603278C9A0500DFAE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F83E60F278F3C8200DFAE4A /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 		3F83E5E3278C99FB00DFAE4A /* to-do list */ = {
 			isa = PBXGroup;
 			children = (
-				3F83E5E4278C99FB00DFAE4A /* to_do_listApp.swift */,
 				3F83E5E6278C99FB00DFAE4A /* ContentView.swift */,
+				3F83E60F278F3C8200DFAE4A /* ToDoList.swift */,
+				3F83E5E4278C99FB00DFAE4A /* to_do_listApp.swift */,
 				3F83E5E8278C9A0400DFAE4A /* Assets.xcassets */,
 				3F83E5ED278C9A0400DFAE4A /* Info.plist */,
 				3F83E5EA278C9A0400DFAE4A /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F83E5E7278C99FB00DFAE4A /* ContentView.swift in Sources */,
+				3F83E610278F3C8200DFAE4A /* ToDoList.swift in Sources */,
 				3F83E5E5278C99FB00DFAE4A /* to_do_listApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
